@@ -152,8 +152,8 @@ if(recv(ClientSocket, msg1, BUFFERSIZE-1, 0) <=0 ) {
 				printf("Stringa 1 ricevuta dal SERVER in MAISUCOLO: %s\n", msg1);
 				printf("Stringa 2 ricevuta dal SERVER in minuscolo: %s\n", msg2);
 
-				closesocket(ClientSocket);
-				flag_chiusura = flag_chiusura -1;
+
+				//flag_chiusura = flag_chiusura - 1;
 	}
 
 
